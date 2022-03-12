@@ -1,0 +1,62 @@
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+
+.center {
+    text-align: center;
+    font-size:64px;
+       
+}
+
+.pastel {
+    display: flex;
+    justify-content: center;
+}
+.section-1, .section-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fresa , .capuchino, .aleman, .queso,.carlosV,.americano{
+    
+    height: auto;
+    width: 250px;
+}
+
+
+.pasteles{
+    display: inline-block;
+    margin: 18px;
+    padding: 18px;
+}
+ html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    }
+.pie-pagina {
+    background-color:cadetblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+      
+}

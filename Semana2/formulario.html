@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <header>
+    <h1 class="center">Pastereria Pak-tendulce</h1>
+  </header>
+    <h2>Datos para finalizar la Compra</h2>
+    <p class="pedido"># de pedido 65468486</p>
+    
+    <div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="user_name" />
+             </li>
+             <br>
+             <li>
+               <label for="mail">Numero telefonico:</label>
+               <input type="email" id="mail" name="user_email" />
+             </li>
+             <br>
+             <li>
+                <label for="text">Dirección:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <br>
+              <label for="start">Eliga fecha de entrega</label>:</label>
+              <input type="date" id="start" name="trip-start"
+              value="2022-03-10"
+              min="2022-03-10" max="2022-05-31">
+              <br><br><br>
+              <li>
+                <label for="msg">Referencias del domicilio:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <br>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Recoger en tienda</label><br>
+                <br>
+                <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Enviar a domicilio</label>
+              <br><br><br>
+              <p>PAGO</p>
+              <label><input type="checkbox" id="cbox1" value="first_checkbox">Tarjeta de credito</label>
+              <br><br>
+              <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Tarjeta debito</label>
+              <br><br>
+              <img class="visa" src="VISA.png" alt="visa"><input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2"></label>
+              <br><br>
+              <img class="master" src="MASTERCARD.png" alt="MASTERCARD"><input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2"></label>
+              <br><br>
+              <p class="total">TOTAL $578.00</p>
+              <br>
+              <li >
+                <input class="btn-form" type="submit" value="Procesar">
+              </li>
+    </div>
+
+    <br><br><br><br><br><br>
+  <footer class="pie-pagina">
+    <p>DIRECCIÓN:Calle arrendo #525 Cp.05685 <Col class="Algaramitas"></Col></p>
+    <P>HORARIOS DE ATENCION: LUNES-SABADO 10:00 A 19:00 DOMINGOS 11:00 A 18:00</P>
+    <P>TELEFONO: 55 65 55 55 25</P>
+  </footer>
+</body>
+</html>
